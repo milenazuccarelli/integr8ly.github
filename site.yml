@@ -9,7 +9,7 @@ content:
 
 ui:
   bundle:
-    url: ../i8y-ui-bundle/build/ui-bundle.zip
+    url: ./i8y-ui-bundle/build/ui-bundle.zip
 
 urls:
   redirect_facility: disabled

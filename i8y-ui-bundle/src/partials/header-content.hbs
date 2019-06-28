@@ -1,0 +1,78 @@
+{{!-- <header class="header">
+  <nav class="navbar">
+    <div class="navbar-brand">
+      <a class="navbar-item logo" href="{{or site.url (or siteRootUrl siteRootPath)}}/index.html"></a>
+      <button class="navbar-burger" data-target="topbar-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <div id="topbar-nav" class="navbar-menu">
+      <div class="navbar-end">
+        <a class="navbar-item" href="index.html">Home</a>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="">Get started</a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="getting-started.html">Introduction</a>
+            <a class="navbar-item" href="release-notes.html">Release Notes</a>
+            <a class="navbar-item" href="walkthroughs.html">Solution Patterns</a>
+          </div>
+        </div>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="#">Community</a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="#">Overview</a>
+            <a class="navbar-item" href="#">Team</a>
+            <a class="navbar-item" href="#">Community meeting</a>
+            <a class="navbar-item" href="#">Contributing</a>
+            <a class="navbar-item" href="#">Contact</a>
+          </div>
+        </div>
+        <a class="navbar-item" href="#">News</a>
+      </div>
+    </div>
+  </nav>
+  {{#if (eq page.layout 'home')}}
+  <div class="banner-wrap">
+    <div class="banner">
+      <h1>Agile integration <br />made easy.</h1>
+    </div>
+  </div>
+  <a class="circle" href="#start"></a>
+  {{/if}}
+</header> --}}
+
+<header class="header">
+  <nav class="navbar shadow border-bottom">
+    <div class="navbar-brand">
+      <a class="navbar-item logo" href="{{siteRootPath}}" title="{{site.title}}"></a>
+      <button class="navbar-burger" data-target="topbar-nav">
+      </button>
+    </div>
+    <div id="topbar-nav" class="navbar-menu">
+      <div class="navbar-end">
+        {{#withMenuData}}
+          {{#each @items}}
+              {{#if children}}
+              <div class="navbar-item has-dropdown is-hoverable">
+                <a class="navbar-link" href="{{../../siteRootPath}}{{url}}">{{name}}</a>
+              {{else}}
+              <a class="navbar-item" href="{{../../siteRootPath}}{{url}}">{{name}}</a>
+              {{/if}}
+              {{#if children}}
+              <div class="navbar-dropdown">
+              {{#each children}}
+                <a class="navbar-item" href="{{../../../siteRootPath}}{{url}}">{{name}}</a>
+              {{/each}}
+              </div>
+              {{/if}}
+              {{#if children}}
+              </div>
+              {{/if}}
+          {{/each}}
+        {{/withMenuData}}
+      </div>
+    </div>
+  </nav>
+</header>
