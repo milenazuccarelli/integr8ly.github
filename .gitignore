@@ -1,0 +1,14 @@
+node
+target
+node_modules
+public
+static/*
+!**/.htaccess
+
+.idea
+*.iml
+.project
+.classpath
+.metadata
+.pnp
+.pnp.js
