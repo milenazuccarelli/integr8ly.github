@@ -14,4 +14,4 @@ Integreatly runs on OpenShift. See
 
 <!--more-->
 
-More
+.

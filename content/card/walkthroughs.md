@@ -16,4 +16,4 @@ Each walkthrough consists of:
 
 <!--more-->
 
-More
+.

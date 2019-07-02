@@ -9,6 +9,7 @@ read_more_url: /docs/cards/identity.html
 ---
 
 Each Integreatly user has:
+
 - a Fuse Online instance
 - an AMQ Online instance
 - a 3scale account
@@ -17,4 +18,4 @@ Each Integreatly user has:
 
 <!--more-->
 
-More
+.

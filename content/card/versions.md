@@ -13,4 +13,4 @@ read_more_url: /docs/cards/i8-next.html
 
 <!--more-->
 
-More
+.
