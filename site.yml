@@ -4,8 +4,8 @@ site:
 
 content:
   sources:
-    - url: ../i8y
-      branches: HEAD
+    - url: https://github.com/milenazuccarelli/i8y.git
+      branches: master
 
 ui:
   bundle:
