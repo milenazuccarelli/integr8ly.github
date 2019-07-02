@@ -1,7 +1,10 @@
 ---
-title:
-    Agile integration <br/>
+title: '
+    Agile integration
+
+
     made easy.
+    '
 featured_image: '/_/img/banner.jpg'
 ---
 
