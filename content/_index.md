@@ -2,7 +2,7 @@
 title:
     Agile integration <br/>
     made easy.
-featured_image: '/_/img/banner.png'
+featured_image: '/_/img/banner.jpg'
 ---
 
 # What is Integreatly
