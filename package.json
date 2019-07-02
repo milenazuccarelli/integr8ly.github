@@ -24,5 +24,8 @@
   "installConfig": {
     "pnp": true
   },
-  "dependencies": {}
+  "dependencies": {
+    "handlebars": "~4.1",
+    "toml": "~3.0"
+  }
 }

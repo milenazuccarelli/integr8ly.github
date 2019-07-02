@@ -24,4 +24,3 @@ Handlebars.registerHelper('withMenuData', (options) => {
     }
   });
 });
-
